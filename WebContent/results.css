@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+body {
+	background-color: white;
+	margin: 0 0 0 0;
+	border: 0 0 0 0;
+	overflow: hidden;
+}
+
+#background {
+	z-index: -100;
+	position: fixed;
+	margin: 0 0 0 0; 
+	border: 0 0 0 0;
+  	width: 100%; 
+	height: 100%;  
+	transform: scale(1.05);
+}
+
+#background img {
+	width: 100%; 
+	height: 100%; 
+	filter: opacity(50%) grayscale(70%);
+}
+
+#topbar {
+	z-index: -90;
+	margin: 0 0 0 0;
+	top: 0;
+	position: fixed;
+	transform: scale(1.05);
+	width: 100%; 
+	font-weight: 600;
+}
+
+#topbar img {
+	width: 120%; 
+	height: 100%; 
+	filter: grayscale(20%);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: rgb(50,50,50);
+	text-decoration: none;
+}
+
+#topleft {
+	display: inline-block;
+	width: 67%;
+	padding-top: 1.5%;
+}
+
+#topleft a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 230%;
+	margin-left: 3%;
+	margin-botton: 2%;
+}
+
+#topright {
+	display: inline;
+	margin-botton: 2%;
+}
+
+#topright a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 150%;
+	margin-right: 4%;
+} 
+
+#topright img{
+	height: 5%;
+	width: 3.5%;
+	margin-top: 1%;
+}
+
+#topright #text{
+	border-bottom: 10%;	
+}
+
+#profile, #signout, #login, #register{
+	height: 100%;
+}
+
+#uberLyftIcons{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#uberIcon, #lyftIcon {
+	position: relative;
+	display: inline-block;
+}
+
+#uberIcon {
+	left: 20%;
+	top: 5%;
+}
+
+#uberIcon img{
+	width: 120%;
+	height: 80%;
+}
+
+#lyftIcon {
+	left: 57%;
+}
+
+#lyftIcon img{
+	width: 8%;
+	height: 80%;
+}
+
+#tableContainer {
+	display: flex;
+}
+
+#dynamicUberTable, #dynamicLyftTable {
+	position: relative;
+	display: inline-block;
+}
+
+#dynamicUberTable {
+	margin-left: 10%;
+	margin-right: 5%;
+	width: 150%;
+}
+
+#dynamicLyftTable {
+	margin-left: 5%;
+	margin-right: 10%;
+	width: 150%;
+}
+
+#dynamicLyftTable a, #dynamicUberTable a{
+	color: black;
+	text-decoration: none;
+}
+
+#dynamicLyftTable a:hover, #dynamicUberTable a:hover{
+	color: #336699;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.Searchname {
+	border: none;
+	background-color: inherit;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+}
+
+table {
+	border: 1px rgb(50,50,50) solid;
+	border-radius: 25px;
+	height: 100%;
+	width: 100%;	
+}
+
+td, th, tr {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+}
+
+th {
+	font-weight: 400;
+	padding-top: 2%;
+}
+
+td, th {
+	text-align: center;
+}
+
+.cheapest {
+	height: 10%;
+}
+
+.cheapest h6{
+	font-size: 130%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	color: #336699;
+	text-align: center;
+	margin-top: 2%; 
+	margin-bottom: 0%;
+	
+}
+
+#searchForm {
+	z-index: 0;
+	position: relative;
+	display: flex;
+	justify-content: center; 
+	margin-left: 3%;
+	width: 90%;
+	color: rgb(50,50,50); 
+}
+
+#searchForm h3 {
+	font-size: 130%;
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-flex;
+}
+
+#initialDes, #finalDes {
+	display: inline-flex;
+	width: 100%;
+	margin-right: 1%;
+}
+
+#initialDes h3 {
+	font-weight: 400;
+	margin-left: 3%;
+}
+
+#finalDes h3 {
+	font-weight: 400;
+	margin-left: 3%;
+}
+
+#initialDes h4 {
+	font-size: 120%;
+	font-weight: 300;
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+#finalDes h4 {
+	font-size: 120%;
+	font-weight: 300;
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+#googleMap {
+	display: inline-block;
+	margin-top: 1.5%;
+	margin-right: 1%;
+	width: 8%;
+}
+
+#mapIcon {
+	width: 100%;
+}
+
+#mapContainer {
+	position: absolute;
+	width: 70%; 
+	height: 80%; 
+ 	padding-top: 5%;
+	padding-left: 15%;
+	z-index: 100;
+	display: none;
+}
+
+#map {
+	width:100%; 
+	height:100%;  
+}
+
+#webpageBackground {
+	margin: 0 0 0 0;
+	width: 100%; 
+	height: 100%; 
+	position: fixed;
+	filter: brightness(100%);
+	opacity: 1;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 80%;
+	padding: 1%;
+	position: fixed;
+	left: 40%;
+	top: 95%;
+}

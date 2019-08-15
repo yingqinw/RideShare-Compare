@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+body {
+	background-color: white;
+	margin: 0 0 0 0; 
+	border: 0 0 0 0;
+	overflow: hidden;
+}
+
+#background {
+	z-index: -100;
+	position: fixed;
+	margin: 0 0 0 0; 
+	border: 0 0 0 0;
+  	width: 100%; 
+	height: 100%;  
+	transform: scale(1.05);
+}
+
+#background img {
+	width: 100%; 
+	height: 100%; 
+	filter: opacity(50%) grayscale(70%);
+}
+
+#topbar {
+	z-index: -90;
+	margin: 0 0 0 0;
+	top: 0;
+	position: fixed;
+	transform: scale(1.05);
+	width: 100%; 
+	font-weight: 600;
+}
+
+#topbar img {
+	width: 120%; 
+	height: 100%; 
+	filter: grayscale(20%);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: rgb(50,50,50);
+	text-decoration: none;
+}
+
+#topleft {
+	display: inline-block;
+	width: 30%;
+	padding-top: 1.5%;
+}
+
+#topleft a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 230%;
+	margin-left: 3%;
+	margin-botton: 2%;
+}
+
+/* #topright {
+	display: inline;
+	margin-botton: 2%;
+}
+
+#topright a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 150%;
+	margin-right: 3%;
+} 
+
+#topright img{
+	height: 3.5%;
+	width: 3.5%;
+}
+
+#topright #text{
+	border-bottom: 10%;	
+}
+
+#friends, #profile, #signout {
+	height: 100%;
+}
+
+.dropdown {
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 200%;
+}
+
+.dropdown-menu a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+}
+
+#friends {
+	border: none;
+	background-color: inherit;
+	display: inline-block;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 150%;
+	width: 20%;
+}
+
+#friends:hover {
+	color: rgb(50,50,50);
+}
+
+#friends img{
+	height: 20%;
+	width: 20%;
+}
+
+#Username {
+	border: none;
+	background-color: inherit;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 120%;
+}
+
+#addFriendsUsername {
+	display: none;
+	margin-top: 1%;
+}
+
+.myForm{
+	height: 320%;
+	width: 300%;
+	margin-left: 50%;
+}
+
+#addFriendsUsername input[type="text"]{
+	position: relative;
+	width: 50%;
+	height: 120%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+	padding: 1% 2% 1% 2%; 
+	border-radius: 25px; 
+	margin-top: 1%;
+	margin-left: 5%;
+	display: inline-block;  
+}
+
+#addFriendsUsername input[type="submit"] {
+	margin-left: 1%;
+	margin-top: 1%;
+	position: relative;
+	display: inline-block;
+	background-color: rgba(160, 210, 255, 0.9);
+	border-radius: 25px;
+	width: 28%;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+	padding: 0.5% 1% 0.5% 1%;
+} */
+
+#icon {
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+#icon img{
+	height: 8%;
+	width: 8%;
+}
+
+#tableContainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	overflow-y: auto; 
+	width: 90%;
+	height: 500px;
+}
+
+#dynamicTable {
+
+}
+
+#tableTitle {
+	position: relative;
+	display: flex;
+	justify-content: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size:  200%; 
+}
+
+#resultTable {
+	border: 1px solid #b4b4b4;
+	color: #3c3c3c;
+	font-size: 25px;
+ 	height: 100%;
+	width: 100%; 
+	margin-left: 8%;
+	background-color: rgba(160, 210, 255, 0.2); 
+}
+
+td, th, tr {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 85%;
+}
+
+th {
+	font-weight: 400;
+	padding-top: 1%; 
+}
+
+footer {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 80%;
+	padding: 1%;
+}

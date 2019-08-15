@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+body {
+	background-color: white;
+	margin: 0 0 0 0; 
+	border: 0 0 0 0;
+	overflow: hidden;
+}
+
+#background {
+	z-index: -100;
+	position: fixed;
+	margin: 0 0 0 0; 
+	border: 0 0 0 0;
+  	width: 100%; 
+	height: 100%;  
+	transform: scale(1.05);
+}
+
+#background img {
+	width: 100%; 
+	height: 100%; 
+	filter: opacity(50%) grayscale(70%);
+}
+
+#topbar {
+	z-index: -90;
+	margin: 0 0 0 0;
+	top: 0;
+	position: fixed;
+	transform: scale(1.05);
+	width: 100%; 
+	font-weight: 600;
+}
+
+#topbar img {
+	width: 120%; 
+	height: 100%; 
+	filter: grayscale(20%);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+#topleft {
+	display: inline-block;
+	width: 63%;
+	padding-top: 1.5%;
+}
+
+#topleft a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 230%;
+	margin-left: 3%;
+	margin-botton: 2%;
+}
+
+#topright {
+	display: inline;
+	margin-botton: 2%;
+}
+
+#topright a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 150%;
+	margin-right: 5%;
+} 
+
+#topright img{
+	height: 3.5%;
+	width: 3.5%;
+}
+
+#topright #text{
+	border-bottom: 10%;	
+}
+
+#icon {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#icon img{
+	width: 25%; 
+	height: 25%;
+	margin-top: 5%;
+	filter: grayscale(20%);
+}
+
+#login, #register {
+	height: 100%;
+}
+
+#registerForm {
+	z-index: 0;
+	position: relative;
+	display: block;
+	left: 23%; 
+	margin-top: 1%;
+	height: 45%;
+	max-width: 60%;
+	color: rgb(50,50,50); 
+}
+
+#registerForm h3 {
+	font-size: 150%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+#username h3 {
+	margin-left: 5%;
+	margin-right: 8%;
+	font-weight: 400;
+}
+
+#password h3 {
+	margin-left: 5%;
+	margin-right: 9%;
+	font-weight: 400;
+}
+
+#confirmPassword h3 {
+	margin-right: 3%;
+	font-weight: 400;
+}
+
+#registerForm input[type="text"], #registerForm input[type="password"] {
+	font-family: 'Josefin Sans', sans-serif;  
+	font-weight: 300;
+	font-size: 130%;
+	width: 35%;
+	height: 15%;
+	border-radius: 50px;
+	border: black 1px groove;
+	padding: 1.5% 3% 1.5% 3%; 
+}
+
+#username, #password, #confirmPassword {
+	display: flex;
+	margin-bottom: 2%;
+}
+
+#submitButton {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+
+#submitButton img {
+	position: absolute;
+	height: 70%;
+	left: 13%;
+	top: 13%;
+}
+
+#submitButton input[type="submit"] {
+	background-color: rgba(160, 210, 255, 0.9);
+	border-radius: 20px;
+	height: 250%;
+	width: 200%;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 150%;
+	padding: 13% 0% 13% 15%;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 80%;
+	padding: 1%;
+}
