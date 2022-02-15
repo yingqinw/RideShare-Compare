@@ -12,7 +12,9 @@ On Eclipse, right-click "run.launch" -> Run As -> "run". It will be hosted on ht
 **User Interfaces**
 
 1. Homepage
+
 ![GitHub Logo](https://i.ibb.co/g4w6rCD/img-0772-orig.png)  
 
 2. Search Results
+
 ![GitHub Logo](https://i.ibb.co/pfBRP8w/57427406-315302539162270-2390352215953899520-n-orig.png ) 
